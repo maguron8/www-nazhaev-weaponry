@@ -12,3 +12,10 @@ how am i gonna include mysql to this??? i'm writing this in vs code with no actu
 # things i learned
 ## !DOCTYPE
 i thought this thing was not that important, apparently i was wrong; it is used for making sure that a browser formats the page in a standard fashion. from now on, i'll properly have my HTML files in such a fashion.
+
+## git accounts
+for a good day, I had trouble connecting my github to vs code. this prevented me from continuing this project, since i decided i wanted to learn more git while i was making this.
+
+after that day, i was reasoning within my head trying to figure it out, and i realized it was probably because visual studio (not code) was connected to my git (and it used my microsoft account i believe). so i went to visual studio and changed the git settings there.
+
+upon arriving at the git configuration, i discovered that it doesn't actually connect to a github account and whatnot. instead, they do "credentials" by giving a *username* and *email*. so i just set it to my appropriate credentials, and it was fixed. now it shows the right account when I push my changes (i believe that's the right term).
