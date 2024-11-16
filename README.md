@@ -8,6 +8,8 @@ how am i gonna include mysql to this??? i'm writing this in vs code with no actu
 - (Index-1A) i have moved this from using an extension (Live Server) in vs code to using the WAMP project.
     i do not have a linux machine (as of yet, I'll probably end up converting my server to it, soon.) so I had to use WAMP to suffice.
 > issue solved.
+## css / html
+i just now realized that i actually don't know anything about CSS or HTML. so i'm gonna have to learn all of this real quick. this shouldn't be a problem, just give me a day or so.
 
 # things i learned
 ## !DOCTYPE
