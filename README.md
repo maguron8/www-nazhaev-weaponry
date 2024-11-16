@@ -21,3 +21,7 @@ for a good day, I had trouble connecting my github to vs code. this prevented me
 after that day, i was reasoning within my head trying to figure it out, and i realized it was probably because visual studio (not code) was connected to my git (and it used my microsoft account i believe). so i went to visual studio and changed the git settings there.
 
 upon arriving at the git configuration, i discovered that it doesn't actually connect to a github account and whatnot. instead, they do "credentials" by giving a *username* and *email*. so i just set it to my appropriate credentials, and it was fixed. now it shows the right account when I push my changes (i believe that's the right term).
+
+## css notes
+- grids are pretty cool
+- in order to override styles in a specific class/id, use the > *operator*. for example, in the *bannerGrid* id, all div items have their styles overwritten in the css page file by doing: #bannerGrid > div
