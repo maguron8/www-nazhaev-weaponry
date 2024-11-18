@@ -1,5 +1,5 @@
 # main objective
-create a website that allows the user to browse the company (~~nazhaev~~ Vulcan) store.
+create a website that allows the user to browse the company (~~nazhaev~~ Vulcan Manufacturing) store.
 make a nice website using css, js, and do backend stuff with php and sql.
 
 # issues
