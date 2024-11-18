@@ -1,5 +1,5 @@
-:root {
-    --bannerSize: 5px;
+body {
+    margin: 0;
 }
 
 p {
@@ -7,54 +7,31 @@ p {
     letter-spacing: 5%;
 }
 
-#bannerGrid {
-    display: grid;
+#bannerFlex {
+    background-color: #000000;
     width: 100%;
 
-    grid-auto-flow: column;
-    justify-content: stretch;
+    display: flex;
 }
 
-#bannerGrid > div {
+#bannerFlex > div {
     background-color: #000000;
-
-    border-style: solid;
-    border-width: var(--bannerSize);
-    max-height: 50px;
+    width: 10%;
 }
 
-    #bannerGrid > div:hover {
+    #bannerFlex > div:hover {
         background-color: #333333;
-        border-color: #333333;
-
         transition: all 150ms;
     }
 
-    #bannerGrid > div p {
+    #bannerFlex > div p {
         color: #ffffff;
 
         text-align: center;
         text-transform: uppercase;
     }
 
-    #bannerGrid > .columnStart {
-        border-radius: var(--bannerSize) 0 0 var(--bannerSize);
-    }
 
-    #bannerGrid > .columnEnd {
-        border-radius: 0 var(--bannerSize) var(--bannerSize) 0;
-    }
-
-.bannerDropdown {
-    display: grid;
-    width: 100%;
-
-    grid-auto-flow: row;
-}
-
-.bannerDropdown > div {
-    background-color: #000000;
-
-    border-style: solid;
-    border-width: var(--bannerSize);
+#bodyContainer {
+    background-color: #333333;
 }
