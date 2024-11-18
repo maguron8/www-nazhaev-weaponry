@@ -1,5 +1,5 @@
 # main objective
-create a website that allows the user to browse the company (nazhaev weaponry) armory and store.
+create a website that allows the user to browse the company (~~nazhaev~~ Vulcan) store.
 make a nice website using css, js, and do backend stuff with php and sql.
 
 # issues
@@ -25,3 +25,4 @@ upon arriving at the git configuration, i discovered that it doesn't actually co
 ## css notes
 - grids are pretty cool
 - in order to override styles in a specific class/id, use the > *operator*. for example, in the *bannerGrid* id, all div items have their styles overwritten in the css page file by doing: #bannerGrid > div
+- learned that '>' is a combinator. so is ' ', '+', '~', and ','

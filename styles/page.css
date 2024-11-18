@@ -3,7 +3,8 @@
 }
 
 p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5%;
 }
 
 #bannerGrid {
@@ -14,11 +15,12 @@ p {
     justify-content: stretch;
 }
 
-#bannerGrid > div { /* this is important, use this ">" commonly */
+#bannerGrid > div {
     background-color: #000000;
 
     border-style: solid;
     border-width: var(--bannerSize);
+    max-height: 50px;
 }
 
     #bannerGrid > div:hover {
@@ -28,7 +30,7 @@ p {
         transition: all 150ms;
     }
 
-    #bannerGrid > div > p {
+    #bannerGrid > div p {
         color: #ffffff;
 
         text-align: center;
@@ -42,3 +44,17 @@ p {
     #bannerGrid > .columnEnd {
         border-radius: 0 var(--bannerSize) var(--bannerSize) 0;
     }
+
+.bannerDropdown {
+    display: grid;
+    width: 100%;
+
+    grid-auto-flow: row;
+}
+
+.bannerDropdown > div {
+    background-color: #000000;
+
+    border-style: solid;
+    border-width: var(--bannerSize);
+}
